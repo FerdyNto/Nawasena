@@ -7,6 +7,18 @@
     font-family: Poppins, sans-serif;
 }
 
+body {
+    background-image: linear-gradient(80deg, white 50%, #F6BB16);
+}
+
+.blend-color {
+    mix-blend-mode: difference;
+}
+
+.width-map {
+    width: 100%;
+}
+
 .nav-logo,
 .footer-logo {
     width: 3.5rem;
@@ -269,7 +281,7 @@ button span .bi-whatsapp {
     width: 3rem;
     margin-bottom: 1.25rem;
     border-radius: 9999px;
-    background-color: #ffbf56;
+    background-color: #F6BB16;
 }
 
 .content-3-1 .text-caption {
@@ -278,19 +290,9 @@ button span .bi-whatsapp {
     color: #565656;
 }
 
-.content-3-1 .btn-learn {
-    font: 600 1rem/1.5rem;
-    padding: 1rem 2.5rem;
-    background-color: #ff7c57;
-    transition: 0.3s;
-    letter-spacing: 0.025em;
-    border-radius: 0.75rem;
-}
 
-.content-3-1 .btn-learn:hover {
-    background-color: #ff9779;
-    transition: 0.3s;
-}
+
+
 
 @media (min-width: 768px) {
     .content-3-1 .title-text {
@@ -346,7 +348,6 @@ body .cl-light-blue {
 body .layanan {
     z-index: 10 !important;
     position: relative;
-    background: #FFFFFF;
     padding-top: 90px;
     padding-bottom: 90px;
 }
