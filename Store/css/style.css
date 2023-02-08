@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #0049a2;
+    font-family: 'Poppins', sans-serif;
+}
+
+.logo-navbar {
+    width: 14rem;
+}
+
+.img-logo-navbar {
+    margin-bottom: 1rem;
+    width: 12.5rem;
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.2);
+}
+
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+
+.nav-link:hover {
+    transform: scale(1.2);
+}
+
+.carousel {
+    padding-top: 3.5rem;
+}
+
+.icon {
+    text-decoration: none;
+    font-size: 2rem;
+    color: #939393;
+    margin: 1rem;
+}
+
+.btn-mail {
+    background-color: #FFE516;
+}
+
+.icon.facebook:hover {
+    color: #1c22df;
+}
+
+.icon.instagram:hover {
+    color: #85008b;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+p {
+    font-weight: 400;
+}
+
+.card {
+    width: 18rem;
+    margin-bottom: 2rem;
+    border: none;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    transition: all .3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.2);
+    z-index: 1;
+}
+
+.card-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+#footer {
+    margin-top: 5rem;
+    background-color: #000040;
+    color: white;
+}
+
+.list-space .list-menu {
+    color: white;
+    text-decoration: none;
+}
+
+.map {
+    width: 100%;
+}
